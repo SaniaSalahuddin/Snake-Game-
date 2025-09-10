@@ -1,0 +1,14 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: url("./snake.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    overflow: auto;
+}
+
+#board {
+    background-color: black;
+    margin-top: 20px; /* Optional: to separate it from the top */
+    box-shadow: 0 0 10px lime; /* Optional: cool glowing effect */
+}
